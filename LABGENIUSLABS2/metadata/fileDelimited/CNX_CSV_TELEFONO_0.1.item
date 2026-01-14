@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_XtvrsPCgEfCRFaMvYBCkUg" name="CNX_CSV_TELEFONO" dataPackage="_XtvrsfCgEfCRFaMvYBCkUg" Server="Localhost 127.0.0.1" FilePath="C:/talend/Genius2/ERP/BaseDeDatosERP/TELEFONO.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XtvrsfCgEfCRFaMvYBCkUg" name="default" dataManager="_XtvrsPCgEfCRFaMvYBCkUg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_XtvrsvCgEfCRFaMvYBCkUg" id="_IRupoPCgEfCRFaMvYBCkUg" label="TELEFONO">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xtvrs_CgEfCRFaMvYBCkUg" label="COD_TELEFONO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XtvrtPCgEfCRFaMvYBCkUg" label="NUM_TELEFONO" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XtvrtfCgEfCRFaMvYBCkUg" label="COD_TIPO" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XtvrtvCgEfCRFaMvYBCkUg" label="CEDULA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
